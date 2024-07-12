@@ -310,8 +310,45 @@ footer textarea {
     .skills-container, .resume-container, footer, .about-items, .banner{
         flex-direction: column;
     }
+
+
+    nav {
+        display: flex;
+        margin:0 10px;
+        padding-top: 20px;
+        gap: 10px;
+    }
+    
+    .nav-title {
+        font-weight: 800;
+        font-size: 30px;
+    }
+    
+    nav ul li {
+        list-style: none;
+        margin-right: 20px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+    }
+    .btn-primary {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    .btn-2 {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    .btn-primary i{
+        display: none;
+    }
+    .btn-2 i{
+        display: none;
+    }
     .banner-profile-pic{
         width: 100%;
+        margin-top: 10px;
     }
     .resume-container{
         padding: 50px;
@@ -319,18 +356,38 @@ footer textarea {
 
     .banner{
         margin: 20px;
+        
+    }
+    .banner-content{
+        text-align: center;
+        margin-top: 10px;
     }
     .header{
         background-image: none;
+    }
+    .about{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .skills .section-description{
+        padding: 20px 40px;
     }
     footer, .about{
         padding: 0px;
     }
     .footer-column{
         width: 100%;
+        /* padding: 30px; */
     }
-    footer input[type="text"], footer input[type="email"], footer textarea{
+    .footer-column p{
+        padding-right: 20px;
+    }
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea{
         width: calc(100% - 40px);
+        padding: 0px 0px;
+        
     }
     
 
